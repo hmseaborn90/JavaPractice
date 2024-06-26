@@ -1,22 +1,46 @@
 package algorithims;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        var list = new LinkedList();
+        list.addLast(10);
+        list.addLast(20);
+        list.addLast(30);
+        System.out.println(list.indexOf(20));
+        System.out.println(list.contains(40));
+//LinkedList
+//        LinkedList<Integer> list = new LinkedList<>();
+//        list.addLast(10);
+//        list.addLast(20);
+//        list.addLast(30);
+//        list.addFirst(5);
+//        list.removeLast();
+//        list.remove(2);
+//        list.removeFirst();
+//        System.out.println(list.contains(10));
+//        System.out.println(list.indexOf(10));
+//        System.out.println(list.size());
+//        var array =list.toArray();
+//        System.out.println(list);
+//        System.out.println(Arrays.toString(array));
 
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        list.remove(0);
-        list.indexOf(20);
-        list.lastIndexOf(20);
-        list.contains(20);
-        list.size();
-        list.toArray();
 
-        System.out.println(list);
+// Array list
+//        ArrayList<Integer> list = new ArrayList<>();
+//        list.add(10);
+//        list.add(20);
+//        list.add(30);
+//        list.remove(0);
+//        list.indexOf(20);
+//        list.lastIndexOf(20);
+//        list.contains(20);
+//        list.size();
+//        list.toArray();
+//
+//        System.out.println(list);
 //    Array numbers = new Array(3);
 //    numbers.insert(10);
 //    numbers.insert(20);
